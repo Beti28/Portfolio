@@ -1,3 +1,5 @@
 <h1> Hello! 👋 </h1>
-<h2>My name is Beatris and this is my portfolio-project!
-Hope you like it!</h2>
+# 🖥️ Features
+Dynamic UI: Built with React for a fast and interactive user experience.
+3D Visuals: Enhanced with Three.js for immersive 3D graphics.
+Responsive Design: Tailwind CSS ensures compatibility across devices of all sizes.
