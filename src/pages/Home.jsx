@@ -9,10 +9,10 @@ const Home = () => {
     const adjustIslandForScreenSize = () => {
         let screenScale = null;
         let screenPosition =[0, 5, -43.4];
-        let rotation = [0.1, 9.3, 0];
+        let rotation = [0.1, 9.2, 0];
     
         if (window.innerWidth < 768) {
-          screenScale = [0.9, 0.9, 0.9];
+          screenScale = [6.2, 6.2, 6.2];
         } else {
           screenScale = [9, 9, 9];
         }
@@ -40,7 +40,3 @@ const Home = () => {
 }
 
 export default Home
-
-//<div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
-//POPUP
-//</div>
