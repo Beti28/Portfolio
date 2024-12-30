@@ -1,4 +1,3 @@
-<h1> Hello! 👋 </h1>
 <h1>🖥️ Features:</h1>
 
 - **Dynamic UI**: Built with React for a fast and interactive user experience.
