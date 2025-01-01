@@ -21,16 +21,16 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text='I am a software engineer with a passion for creating and building things.'
+            text='Junior front-end developer with a desire to apply my knowledge professionally.'
             link='/about'
             btnText='Learn More'
         />
     ),
     3: (
         <InfoBox
-            text='Projects I have worked on.'
+            text='Projects I have worked on. Check them out!'
             link='/projects'
-            btnText='Visit my portfolio'
+            btnText='My portfolio'
         />
     ),
     4: (
