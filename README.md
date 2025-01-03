@@ -47,15 +47,21 @@
 ├── vite.config.js
 
 <h1>🚀 Getting Started</h1>
+
 ## Install dependencies
+
 - download or clone the repository
 - run npm install
+- 
 ## Set up EmailJS
+
 - Go to https://www.emailjs.com/ and log in or create an account.
 - Set up an email service and template.
 - Copy your Service ID, Template ID, and Public Key.
 - Add them to the project in a .env file or directly into Contact component for testing
+- 
 ## Start the development server
+
 - run npm run dev
 
 <h1>🛠️ Technologies Used</h1>
