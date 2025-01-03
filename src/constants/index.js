@@ -1,24 +1,24 @@
 import { softuni } from "../assets/images";
 import {
-    car,
+    dumbell,
+    paw,
     contact,
     angular,
     css,
-    estate,
     express,
     github,
     html,
+    git,
     javascript,
     linkedin,
     mongodb,
     nodejs,
-    pricewise,
     react,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    canva,
+    gimp,
+    firebase
 } from "../assets/icons";
 
 export const skills = [
@@ -67,12 +67,37 @@ export const skills = [
         name: "Node.js",
         type: "Backend",
     },
-    
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
     },
+    {
+        imageUrl: canva,
+        name: "Canva",
+        type: "Frontend",
+    },
+    {
+        imageUrl: gimp,
+        name: "Gimp",
+        type: "Frontend",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
+        type: "Frontend and Backend",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    
 ];
 
 export const experiences = [
@@ -111,46 +136,18 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
+        iconUrl: dumbell,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'FitBuddy',
+        description: 'FitBuddy is web application that is used to create publications for selling fitness equipment.',
+        link: 'https://github.com/Beti28/Angular',
     },
     {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        iconUrl: paw,
+        theme: 'btn-back-green',
+        name: 'One Tail Two Ears',
+        description: 'One Tail Two Ears is web application that is used to create publications for the adoption of homeless animals.',
+        link: 'https://github.com/Beti28/ReactJS',
+    },
 ];
 
