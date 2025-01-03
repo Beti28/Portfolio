@@ -9,7 +9,6 @@
 ## 📸 Screenshots
 
 ![Portfolio Homepage](./public/home-screenshot.png)
-*Portfolio homepage showcasing 3D visuals and responsive design.*
 
 <h1>📦 Portfolio</h1>
 ├── 📁 public
@@ -60,6 +59,7 @@
 - run npm run dev
 
 <h1>🛠️ Technologies Used</h1>
+
 - **React**: Frontend framework for building UI components.
 - **Three.js**: Library for 3D graphics and animations.
 - **Vite**: Build tool for faster development and optimized builds.
