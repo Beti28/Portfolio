@@ -8,40 +8,72 @@
 
 <h1>📦 Portfolio</h1>
 
-|-- 📁 public
+├── 📁 public
 
 ├── 📁 src
-|   ├── 📁 assets
+
+│   ├── 📁 assets
+
 │   ├── 📁 components
+
 │   │   ├── Alert.jsx
+
 │   │   ├── CTA.jsx
+
 │   │   ├── HomeInfo.jsx
+
 │   │   ├── Loader.jsx
+
 │   │   ├── Navbar.jsx
+
 │   ├── 📁 constants
+
 │   ├── 📁 hooks
+
 │   ├── 📁 models
+
 │   │   ├── Bird.jsx
+
 │   │   ├── Fox.jsx
+
 │   │   ├── Island.jsx
+
 │   │   ├── Sky.jsx
+
 │   ├── 📁 pages
+
 │   │   ├── About.jsx
+
 │   │   ├── Contact.jsx
+
 │   │   ├── Home.jsx
+
 │   │   ├── index.js
+
 │   │   ├── Projects.jsx
+
 │   ├── App.jsx
+
 │   ├── index.css
+
 │   ├── main.jsx
+
 ├── .gitignore
+
 ├── eslint.config.js
+
 ├── index.html
+
 ├── package-lock.json
+
 ├── package.json
+
 ├── postcss.config.js
+
 ├── README.md
+
 ├── tailwind.config.js
+
 ├── vite.config.js
 
 
