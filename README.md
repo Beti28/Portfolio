@@ -8,31 +8,31 @@
 
 <h1>📦 Portfolio</h1>
 
-├── 📁 public
-├── 📁 src
-│   ├── 📁 assets
-│   ├── 📁 components
+├── public
+├── src
+│   ├── assets
+│   ├── components
 │   │   ├── Alert.jsx
 │   │   ├── CTA.jsx
 │   │   ├── HomeInfo.jsx
 │   │   ├── Loader.jsx
-│   │   ├── Navbar.jsx
-│   ├── 📁 constants
-│   ├── 📁 hooks
-│   ├── 📁 models
+│   │   └── Navbar.jsx
+│   ├── constants
+│   ├── hooks
+│   ├── models
 │   │   ├── Bird.jsx
 │   │   ├── Fox.jsx
 │   │   ├── Island.jsx
-│   │   ├── Sky.jsx
-│   ├── 📁 pages
+│   │   └── Sky.jsx
+│   ├── pages
 │   │   ├── About.jsx
 │   │   ├── Contact.jsx
 │   │   ├── Home.jsx
-│   │   ├── index.js
 │   │   ├── Projects.jsx
+│   │   └── index.js
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.jsx
+│   └── main.jsx
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -41,7 +41,8 @@
 ├── postcss.config.js
 ├── README.md
 ├── tailwind.config.js
-├── vite.config.js
+└── vite.config.js
+
 
 <h1>🚀 Getting Started</h1>
 
