@@ -2,7 +2,6 @@ import { softuni } from "../assets/images";
 import {
     dumbell,
     paw,
-    contact,
     angular,
     css,
     express,
@@ -20,6 +19,7 @@ import {
     gimp,
     firebase
 } from "../assets/icons";
+
 
 export const skills = [
     {
@@ -118,11 +118,6 @@ export const experiences = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
         name: 'GitHub',
         iconUrl: github,
         link: 'https://github.com/Beti28',
@@ -140,14 +135,16 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'FitBuddy',
         description: 'FitBuddy is web application that is used to create publications for selling fitness equipment.',
-        link: 'https://github.com/Beti28/Angular',
+        link: 'https://angular-softuni-project-21b88.web.app/',
+        screenshotUrl: '../../public/fitbuddy.png',
     },
     {
         iconUrl: paw,
         theme: 'btn-back-green',
         name: 'One Tail Two Ears',
         description: 'One Tail Two Ears is web application that is used to create publications for the adoption of homeless animals.',
-        link: 'https://github.com/Beti28/ReactJS',
-    },
-];
+        link: 'https://reactjs-softuni-project.web.app/',
+        screenshotUrl: '../../public/one-tail-two-ears.png',
+    }
+]
 

@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import Loader from '../components/Loader'
 import Island from '../models/Island'
 import Sky from '../models/Sky'
-import Bird from '../models/Bird'
+//import Bird from '../models/Bird'
 import HomeInfo from '../components/HomeInfo'
 
 
@@ -49,6 +49,7 @@ const Home = () => {
           />
         </Suspense>
       </Canvas>
+    
     </section>
   )
 }
