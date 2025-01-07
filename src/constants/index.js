@@ -136,7 +136,7 @@ export const projects = [
         name: 'FitBuddy',
         description: 'FitBuddy is web application that is used to create publications for selling fitness equipment.',
         link: 'https://angular-softuni-project-21b88.web.app/',
-        screenshotUrl: '../../public/fitbuddy.png',
+        screenshotUrl: '/fitbuddy.png',
     },
     {
         iconUrl: paw,
@@ -144,7 +144,65 @@ export const projects = [
         name: 'One Tail Two Ears',
         description: 'One Tail Two Ears is web application that is used to create publications for the adoption of homeless animals.',
         link: 'https://reactjs-softuni-project.web.app/',
-        screenshotUrl: '../../public/one-tail-two-ears.png',
+        screenshotUrl: '/one-tail-two-ears.png',
     }
 ]
 
+export const certificates = [
+    {
+        icon: softuni,
+        name: 'Programming Basics',
+        date: 'Sep 2022 - Oct 2022',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/144512/e92f5f57'
+    },
+    {
+        icon: softuni,
+        name: 'Programming Fundamentals with JavaScript',
+        date: 'Jan 2023 - Apr 2023',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/166170/34c3956d'
+    },
+    {
+        icon: softuni,
+        name: 'JS Advanced',
+        date: 'May 2023 - Aug 2023',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/174294/bbcdb4cf'
+    },
+    {
+        icon: softuni,
+        name: 'JS Applications',
+        date: 'June 2023 - July 2023',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/180140/ce2db204'
+    },
+    {
+        icon: softuni,
+        name: 'HTML & CSS',
+        date: 'Sep 2023 - Dec 2023',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/191091/d6642ed2'
+    },
+    {
+        icon: softuni,
+        name: 'ReactJS ',
+        date: 'Oct 2023 - Dec 2023',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/197951/0feab5f3'
+    },
+    {
+        icon: softuni,
+        name: 'JS Back-End',
+        date: 'Jan 2024 - Apr 2024',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/204938/bc2d89c1'
+    },
+    {
+        icon: softuni,
+        name: 'Angular',
+        date: 'Oct 2024 - Dec 2024',
+        iconBg: "#a2d2ff",
+        link: 'https://softuni.bg/certificates/details/234687/cfd4a4c3'
+    },
+]

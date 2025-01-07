@@ -10,17 +10,8 @@ const CTA = () => {
         Let's work together!</p>
         <div className="flex justify-center items-center flex-direction-row gap-4">
             {socialLinks.map((social) => (
-                <a 
-                    key={social.name} 
-                    href={social.link}
-
-                >
-                    <img 
-                        src={social.iconUrl} 
-                        alt={`${social.name} icon`} 
-                        style={{ width: '30px', height: '30px'}} 
-                    />
-                   
+                <a  key={social.name} href={social.link} >
+                  <img  src={social.iconUrl}  alt={`${social.name} icon`} style={{ width: '30px', height: '30px'}} />   
                 </a>
             ))}
         </div>
