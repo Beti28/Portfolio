@@ -21,7 +21,7 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text='Junior front-end developer with a desire to apply my knowledge professionally.'
+            text='Junior software developer with a desire to apply my knowledge professionally.'
             link='/about'
             btnText='Learn More'
         />
@@ -35,7 +35,7 @@ const renderContent = {
     ),
     4: (
         <InfoBox
-            text='Looking for a junior front-end developer? Contact me!'
+            text='Looking for a junior developer? Contact me!'
             link='/contact'
             btnText="Let's Talk"
         />

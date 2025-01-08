@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom"
 import { socialLinks } from "../constants"
-import { Ring } from "@react-three/drei"
-
 
 const CTA = () => {
   return (
