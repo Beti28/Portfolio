@@ -6,6 +6,10 @@
 - **Fast Development**: Vite ensures optimized builds and fast development.
 - **Functional Contact Form**: Integrated with EmailJS for seamless email functionality.
 
+## 📸 Screenshots
+
+![Portfolio Homepage](./public/home-screenshot.png)
+
 <h1>📦 Portfolio</h1>
 
 ├── 📁 public
