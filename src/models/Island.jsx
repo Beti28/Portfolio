@@ -76,25 +76,28 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
       const rotation = islandRef.current.rotation.y;
 
       const normalizedRotation =
-        ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
-      switch (true) {
-        case normalizedRotation >= 5.3 && normalizedRotation <= 5.6:
-          setCurrentStage(4);
-          break;
-        case normalizedRotation >= 0.5 && normalizedRotation <= 1.0:
-          setCurrentStage(3);
-          break;
-        case normalizedRotation >= 1.8 && normalizedRotation <= 2.3:
-          setCurrentStage(2);
-          break;
-        case normalizedRotation >= 3.0 && normalizedRotation <= 3.8:
-          setCurrentStage(1);
-          break;
-        default:
-          setCurrentStage(null);
-      }
-
+      ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI);
+    
+    switch (true) {
+      case normalizedRotation >= 5.3 && normalizedRotation <= 5.6:
+        setCurrentStage(5);
+        break;
+      case normalizedRotation >= 6.0&& normalizedRotation < 6.6: // New stage
+        setCurrentStage(4);
+        break;
+      case normalizedRotation >= 0.5 && normalizedRotation <= 1.0:
+        setCurrentStage(3);
+        break;
+      case normalizedRotation >= 1.8 && normalizedRotation <= 2.3:
+        setCurrentStage(2);
+        break;
+      case normalizedRotation >= 3.0 && normalizedRotation <= 3.8:
+        setCurrentStage(1);
+        break;
+      default:
+        setCurrentStage(null);
     }
+  }    
   })
 
   useEffect(() => {
