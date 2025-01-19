@@ -9,7 +9,7 @@ const About = () => {
       <h1 className='head-text'>Hello, I'm <span className='pink-to-red-gradient_text font-semibold drop-shadow'>Beatris</span></h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          I am a Frontend Developer based in Bulgaria with a passion for creating beautiful and functional websites.
+          I am a Software Developer based in Bulgaria with a passion for creating beautiful and functional websites.
           I am always eager to learn new technologies and improve my skills.
           I enjoy working on projects that challenge me and help me develop as a developer.
         </p>

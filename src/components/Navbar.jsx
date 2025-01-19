@@ -23,7 +23,7 @@ const Navbar = () => {
                 <NavLink
                     to="/about"
                     className={({ isActive }) =>
-                        isActive ? "text-pink-500" : "hover:text-pink-400 transition"
+                        isActive ? "text-pink-600" : "hover:text-pink-400 transition"
                     }
                 >
                     About
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <NavLink
                     to="/projects"
                     className={({ isActive }) =>
-                        isActive ? "text-pink-500" : "hover:text-pink-400 transition"
+                        isActive ? "text-pink-600" : "hover:text-pink-400 transition"
                     }
                 >
                     Projects
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <NavLink
                     to="/certificates"
                     className={({ isActive }) =>
-                        isActive ? "text-pink-500" : "hover:text-pink-400 transition"
+                        isActive ? "text-pink-600" : "hover:text-pink-400 transition"
                     }
                 >
                     Certificates

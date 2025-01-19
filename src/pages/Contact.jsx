@@ -38,28 +38,28 @@ const Contact = () => {
 
     ).then(() => {
       setIsLoading(false);
-      showAlert({show: true,  text: 'Your message has been sent!', type: 'success' });
+      showAlert({ show: true, text: 'Your message has been sent!', type: 'success' });
       setTimeout(() => {
         hideAlert();
         setCurrentAnimation('idle');
         setForm({ name: '', email: '', message: '' });
       }, [3000])
-     
+
     }).catch((error) => {
       setIsLoading(false);
       setCurrentAnimation('idle')
       console.error(error);
-      showAlert({show: true,  text: "I didn't get your message", type: 'danger' });
+      showAlert({ show: true, text: "I didn't get your message", type: 'danger' });
     })
   };
   const handleFocus = () => setCurrentAnimation('walk');
   const handleBlur = () => setCurrentAnimation('idle');
-  
+
 
   return (
     <section className='relative flex lg:flex-row flex-col max-container h-[100vh]'>
-      {alert.show && <Alert {...alert}/>}
-      <div className='flex-1 min-w-[50%] flex flex-col'>
+      {alert.show && <Alert {...alert} />}
+      <div className='flex-1 min-w-[50%] flex flex-col mt-14'>
         <h1 className='head-text'>Get in touch</h1>
         <form className='w-full flex flex-col gap-7 mt-14' onSubmit={handleSubmit}>
           <label className='text-black-500 font-semibold'>
@@ -122,9 +122,9 @@ const Contact = () => {
         <Suspense fallback={<Loader />}>
           <Fox 
           currentAnimation={currentAnimation}
-          position={[0.5, 0.35, 0]}
+          position={[0.1, 0.75, 1]}
           rotation={[12.6, -0.6  , 0]} 
-          scale={[0.5, 0.5, 0.5]}
+          scale={[0.3, 0.3, 0.3]}
           />
         </Suspense>
 

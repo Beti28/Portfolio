@@ -35,18 +35,11 @@ const renderContent = {
     ),
     4: (
         <InfoBox
-            text='You want to see my certificates?'
+            text='You want to see my education?'
             link='/certificates'
             btnText="Come here"
         />
-    ),
-    5: (
-        <InfoBox
-            text='Looking for a junior developer? Contact me!'
-            link='/contact'
-            btnText="Let's Talk"
-        />
-    ),
+    )
    
 }
 
